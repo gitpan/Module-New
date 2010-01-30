@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Module-New
-version:            0.04
+version:            0.05
 abstract:           creates module/distribution skeleton and more
 author:
     - Kenichi Ishigaki <ishigaki@cpan.org>
