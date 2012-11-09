@@ -73,4 +73,5 @@ t/lib/Module/New/Test/Queue/Basic.pm
 t/lib/Module/New/Test/Recipe/Dist.pm
 t/lib/Module/New/Test/Recipe/File.pm
 t/lib/Module/New/Test/Template/Basic.pm
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

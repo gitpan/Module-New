@@ -73,10 +73,8 @@ functions {
           croak "$distname already exists";
         }
       }
-      $context->path->create_dir("$distname/trunk");
-      $context->path->create_dir("$distname/tags");
-      $context->path->create_dir("$distname/branch");
-      $context->path->change_dir("$distname/trunk");
+      $context->path->create_dir($distname);
+      $context->path->change_dir($distname);
     }
     else {
       $context->path->change_dir(".");
@@ -169,7 +167,7 @@ functions {
       my $self = shift;
 
       my $context = Module::New->context;
-      return if $options{optional} && !$context->config('edit');
+      return if $options{optional};
 
       my $editor = $context->config('editor') || $ENV{EDITOR};
       unless ( $editor ) { carp 'editor is not set'; return; }
