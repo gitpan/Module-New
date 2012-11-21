@@ -30,4 +30,4 @@ requires:
   Text::MicroTemplate: 0.06
   Time::Piece: 0
   YAML::Tiny: 1.51
-version: 0.06
+version: 0.07
