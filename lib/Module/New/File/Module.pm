@@ -10,16 +10,11 @@ package <%= $c->module %>;
 use strict;
 use warnings;
 
-sub new {
-    my $class = shift;
-    my $self  = bless {}, $class;
-
-    $self;
-}
-
 1;
 
 __END__
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -30,8 +25,6 @@ __END__
 =head1 DESCRIPTION
 
 =head1 METHODS
-
-=head2 new
 
 =head1 AUTHOR
 

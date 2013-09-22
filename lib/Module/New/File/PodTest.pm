@@ -4,14 +4,14 @@ use strict;
 use warnings;
 use Module::New::File;
 
-file 't/99_pod.t' => content { return <<'EOT';
+file 'xt/99_pod.t' => content { return <<'EOT';
 use strict;
 use warnings;
 use Test::More;
 
 eval "use Test::Pod 1.18";
 plan skip_all => 'Test::Pod 1.18 required' if $@;
-plan skip_all => 'set TEST_POD to enable this test' unless $ENV{TEST_POD};
+plan skip_all => 'set TEST_POD to enable this test' unless $ENV{RELEASE_TESTING};
 all_pod_files_ok();
 EOT
 };
