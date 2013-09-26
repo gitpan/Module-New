@@ -8,7 +8,7 @@ build_requires:
   Test::More: 0.47
   Test::UseAllModules: 0.09
 configure_requires:
-  ExtUtils::MakeMaker::CPANfile: 0.03
+  ExtUtils::MakeMaker::CPANfile: 0.04
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.76, CPAN::Meta::Converter version 2.132620'
 license: perl
@@ -30,4 +30,6 @@ requires:
   Text::MicroTemplate: 0.06
   Time::Piece: 0
   YAML::Tiny: 1.51
-version: 0.08
+resources:
+  repository: https://github.com/charsbar/module-new
+version: 0.09
