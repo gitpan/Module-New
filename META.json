@@ -22,7 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0",
+            "ExtUtils::MakeMaker::CPANfile" : "0.04",
             "Test::Classy" : "0.04",
             "Test::More" : "0.47",
             "Test::UseAllModules" : "0.09"
@@ -38,7 +38,9 @@
             "File::HomeDir" : "0.66",
             "Getopt::Long" : "0",
             "Log::Dump" : "0.03",
+            "Module::Find" : "0",
             "Path::Extended" : "0.10",
+            "Software::License" : "0",
             "String::CamelCase" : "0",
             "Sub::Install" : "0",
             "Text::MicroTemplate" : "0.06",
@@ -53,5 +55,5 @@
          "url" : "https://github.com/charsbar/module-new"
       }
    },
-   "version" : "0.09"
+   "version" : "0.10"
 }

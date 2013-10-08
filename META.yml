@@ -3,7 +3,7 @@ abstract: 'creates module/distribution skeleton and more'
 author:
   - 'Kenichi Ishigaki <ishigaki@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker::CPANfile: 0.04
   Test::Classy: 0.04
   Test::More: 0.47
   Test::UseAllModules: 0.09
@@ -24,7 +24,9 @@ requires:
   File::HomeDir: 0.66
   Getopt::Long: 0
   Log::Dump: 0.03
+  Module::Find: 0
   Path::Extended: 0.10
+  Software::License: 0
   String::CamelCase: 0
   Sub::Install: 0
   Text::MicroTemplate: 0.06
@@ -32,4 +34,4 @@ requires:
   YAML::Tiny: 1.51
 resources:
   repository: https://github.com/charsbar/module-new
-version: 0.09
+version: 0.10
