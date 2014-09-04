@@ -3,8 +3,8 @@
    "author" : [
       "Kenichi Ishigaki <ishigaki@cpan.org>"
    ],
-   "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.76, CPAN::Meta::Converter version 2.132620",
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -23,14 +23,13 @@
       "build" : {
          "requires" : {
             "ExtUtils::MakeMaker::CPANfile" : "0.04",
-            "Test::Classy" : "0.04",
-            "Test::More" : "0.47",
+            "Test::More" : "0.96",
             "Test::UseAllModules" : "0.09"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker::CPANfile" : "0.04"
+            "ExtUtils::MakeMaker::CPANfile" : "0.06"
          }
       },
       "runtime" : {
@@ -39,13 +38,17 @@
             "Getopt::Long" : "0",
             "Log::Dump" : "0.03",
             "Module::Find" : "0",
-            "Path::Extended" : "0.10",
+            "Parse::LocalDistribution" : "0.13",
+            "Path::Tiny" : "0.044",
+            "Pod::Text" : "0",
             "Software::License" : "0",
             "String::CamelCase" : "0",
             "Sub::Install" : "0",
             "Text::MicroTemplate" : "0.06",
             "Time::Piece" : "0",
-            "YAML::Tiny" : "1.51"
+            "Version::Next" : "0",
+            "YAML::Tiny" : "1.51",
+            "version" : "0.77"
          }
       }
    },
@@ -55,5 +58,5 @@
          "url" : "https://github.com/charsbar/module-new"
       }
    },
-   "version" : "0.10"
+   "version" : "0.11"
 }
