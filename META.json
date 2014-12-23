@@ -4,7 +4,7 @@
       "Kenichi Ishigaki <ishigaki@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -58,5 +58,5 @@
          "url" : "https://github.com/charsbar/module-new"
       }
    },
-   "version" : "0.12"
+   "version" : "0.13"
 }
